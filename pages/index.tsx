@@ -1,4 +1,4 @@
-import Logo from '@/components/common/Logo';
+import Logo from '@/components/common/LogoWooble';
 import Section1 from '@assets/landing/section1.svg';
 import Section2 from '@assets/landing/section2.svg';
 import Section3 from '@assets/landing/section3.svg';
@@ -10,7 +10,7 @@ import Button from '@/components/common/Button';
 
 import { useRouter } from 'next/router';
 
-const Landing = (): JSX.Element => {
+const Home = (): JSX.Element => {
 	const router = useRouter();
 	return (
 		<div>
@@ -167,4 +167,4 @@ const Landing = (): JSX.Element => {
 	);
 };
 
-export default Landing;
+export default Home;
