@@ -3,7 +3,7 @@ import Props from './Logo.props';
 
 import LogoIcon from '@assets/ic_contentai.svg';
 
-const Logo: React.FC<Props> = ({ className = '' }) => {
+const LogoContentAI: React.FC<Props> = ({ className = '' }) => {
 	return (
 		<Link className={`${className} font-bold text-2xl`} href='/'>
 			<LogoIcon />
@@ -11,4 +11,4 @@ const Logo: React.FC<Props> = ({ className = '' }) => {
 	);
 };
 
-export default Logo;
+export default LogoContentAI;
