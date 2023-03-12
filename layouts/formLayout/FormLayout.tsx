@@ -1,5 +1,7 @@
 import Props from './FormLayout.props';
 import Button from '@/components/common/Button';
+import Input from '@/components/common/Input';
+import TextArea from '@/components/common/TextArea';
 
 const FormLayout: React.FC<Props> = ({ title1, title2, title3, subtitle1, subtitle2, subtitle3 }) => {
 	return (
