@@ -19,7 +19,7 @@ const Input: React.FC<Props> = ({ className = '', errorMessage, placeholder, val
 	return (
 		<>
 			<div
-				className={className + ' h-14 px-4 border-[1px] rounded-2xl ' + getBorder()}
+				className={className + ' h-[65px] px-6 border-[1px] rounded-2xl ' + getBorder()}
 				onClick={() => {
 					setIsFocused(true);
 					inputRef.current?.click();
