@@ -2,7 +2,7 @@
 
 @layer components {
 	.text-heading-1 {
-		font-weight: 700;
+		font-weight: 600;
 		font-size: 30px;
 	}
 	
@@ -49,6 +49,11 @@
 	.text-BodyText_14 {
 		font-weight: 600;
 		font-size: 14px;
+	}
+
+	.text-BodyText_13 {
+		font-weight: 600;
+		font-size: 13px;
 	}
 	
 	.text-BodyText_12 {
