@@ -64,5 +64,4 @@ const Markets = (): JSX.Element => {
 	);
 };
 
-
 export default Markets;
