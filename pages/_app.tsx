@@ -18,7 +18,7 @@ const App = ({ Component, pageProps }: AppProps): JSX.Element => {
 		<QueryClientProvider client={queryClient}>
 			<Head>
 				<title>
-					Росмолодёжь | онбординг
+					ContentAI
 				</title>
 			</Head>
 			<Component {...pageProps} />
